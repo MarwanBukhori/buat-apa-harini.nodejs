@@ -1,3 +1,3 @@
-# Task Manager 
+# Buat Apa Hari Ini
 <br>
-Engineerd with Node.js
+A simple todolist web app developed using vanilla JS, ExpressJs, NodeJs and MongoDB. Also use Postmant to easily test api. 
