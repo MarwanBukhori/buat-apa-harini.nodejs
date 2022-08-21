@@ -60,14 +60,13 @@ const updateTask = async(req, res) => {
             new: true,
             runValidators: true,
         });
-
         //check condition
         if (!task) {
             return res.status(404).json({ msg: `No task with id : ${taskID}` });
         }
 
         res.status(200).json({ task });
-        res.status(200).send("updated successfully");
+        // res.status(200).send("updated successfully");
         // res.status(200).json({ id: taskID, data: req.body });
     } catch (err) {
         res.status(500).json({ error: err.message });
